@@ -1,0 +1,18 @@
+/* Sets the default font for the application */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar styling for the chat messages area */
+#chat-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-messages::-webkit-scrollbar-thumb {
+    background-color: #4f46e5; /* Indigo color for the thumb */
+    border-radius: 4px;
+}
+
+#chat-messages::-webkit-scrollbar-track {
+    background-color: #e0e7ff; /* Lighter indigo for the track */
+}
